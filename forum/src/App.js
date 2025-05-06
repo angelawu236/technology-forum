@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "flex h-screen">
+      <div className = "text-[4.49vw] py-[1vw] px-[3vw] w-2/9 h-full overflow-hidden">
+        Trending
+      </div>
+      <div className = "border-l-2 border-black h-full overflow-auto">
+        "hi2"
+      </div>
     </div>
   );
 }
 
-export default App;
+
