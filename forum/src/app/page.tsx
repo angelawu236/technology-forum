@@ -12,7 +12,7 @@ export default function Home() {
         <PostSection></PostSection>
       </div>
       <div className = "basis-2/9">
-        Topics
+        TOPICS
       </div>
     </div>
   );
